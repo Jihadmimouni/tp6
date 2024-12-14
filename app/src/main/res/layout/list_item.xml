@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Image de l'élément de la liste -->
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_marginEnd="8dp"/>
+
+    <!-- Texte de l'élément de la liste -->
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Text"
+        android:textSize="18sp"
+        android:textColor="#000"/>
+</LinearLayout>
